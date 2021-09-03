@@ -16,6 +16,7 @@
 }
 /* Home section */
 #home{
+    margin-top: 120px;
     height: 370px; 
     padding: 3px 28px;
 }
@@ -46,7 +47,7 @@
 
 /* Services section  */
 #services-container{
-    margin-top: 100px;
+    margin-top: 0px;
   }
 
 #services{
