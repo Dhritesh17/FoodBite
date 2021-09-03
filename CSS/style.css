@@ -6,6 +6,13 @@
 html{
   scroll-behavior: smooth;
 }
+body{
+  background-color: lightpink;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
 
 /* CSS Variables */
 :root{
@@ -34,11 +41,11 @@ html{
 
 /* Navigation Bar: Logo and Image */
 #logo{
-  margin: 10px 34px;
+  margin: 10px 35px;
 }
 
 #logo img{
-  height: 59px;
+  height: 55px;
   margin: 3px 6px;
 }
 
@@ -87,7 +94,7 @@ html{
   left:0px;
   width: 100%;
   z-index: -1;
-  opacity:0.89;
+  opacity:90;
 }
 
 #home h1{
@@ -101,6 +108,12 @@ html{
   text-align: center;
   font-size: 1.5rem;
   font-family: 'Bree Serif', serif;
+}
+.home__back{
+  background-color: white;
+  border-radius: 40px;
+  opacity: .8;
+  z-index: -1;
 }
 /* Services Section */
 #services{
@@ -156,13 +169,19 @@ opacity: 0.3;
 #sponsors img{
   height: 124px;
 }
-
+.sponsors__border{
+  background-color: whitesmoke;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 /* Contact Section */
 #contact{
   position: relative;
-  /* z-index: -1; */
-  
+  /* z-index: -1; */  
+  padding-top: 50px;
 }
 #contact::before{
   content: "";
@@ -220,7 +239,7 @@ footer{
 
 .btn{
   padding: 6px 20px;
-  border: 2px solid white;
+  border: 4px solid white;
   background-color: darkslategray;
   color: white;
   margin: 17px;

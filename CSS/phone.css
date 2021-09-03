@@ -39,6 +39,22 @@
     display: block;
    }
    
+#home h1{
+    color: black;
+    font-size: 45px;
+}
+#home p{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+  }
+.home__back{
+    background-color: white;
+    border-radius: 40px;
+    opacity: .8;
+    z-index: -1;
+}
 /* Sponsors section */
 #sponsors{
     flex-wrap: wrap;
@@ -48,6 +64,13 @@
     width: 66px;
     padding: 6px;
     height: auto;
+}
+.sponsors__border{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Contact us section */
@@ -59,7 +82,7 @@
 
 /* Utility classes */
 .h-primary{
-    font-size:26px;
+    font-size:40px;
 }
 
 .h-secondary {
@@ -86,3 +109,7 @@
     color: white;
     border-radius: 10px;
 }
+a{
+    text-decoration: none;
+    color: white;
+  }
