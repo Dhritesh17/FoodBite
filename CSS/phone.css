@@ -61,17 +61,31 @@
 }
 
 #sponsors img{
-    width: 66px;
+    width: 75px;
     padding: 6px;
     height: auto;
 }
 .sponsors__border{
-    background-color: whitesmoke;
-    border-radius: 10px;
+    /* background-color: whitesmoke;
+    border-radius: 10px; */
     display: flex;
     justify-content: center;
     text-align: center;
 }
+.sponsors-item{
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+}
+.back__col{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Bree Serif', serif;
+  }
 
 /* Contact us section */
 
@@ -113,3 +127,15 @@ a{
     text-decoration: none;
     color: white;
   }
+
+.btn__sponsors{
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    padding: 2px 5px;
+    font-size: .5rem;
+    border: 2px solid white;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 10px;
+}
