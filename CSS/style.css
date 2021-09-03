@@ -131,6 +131,7 @@ html{
 /* Sponsors Section */
 #sponsors-section{ 
   position: relative;
+  z-index: -1;
 }
 
 #sponsors-section::before{
@@ -151,7 +152,6 @@ opacity: 0.3;
 
 .sponsors-item{
   padding: 34px;
-  z-index: -1;
 }
 
 #sponsors img{
