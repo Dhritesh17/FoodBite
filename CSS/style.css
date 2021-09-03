@@ -23,8 +23,10 @@ a{
 #navbar{
   display: flex;
   align-items: center;
-  position: sticky;
+  position: fixed;
   top: 0px;
+  z-index: 9999;
+  width: 100%;
 }
 
 #navbar::before{
@@ -194,7 +196,7 @@ opacity: 90;
 #contact{
   position: relative;
   /* z-index: -1; */  
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 #contact::before{
   content: "";

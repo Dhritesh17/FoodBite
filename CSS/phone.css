@@ -1,6 +1,12 @@
 /* Navigation */
 #navbar {
     flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 9999;
+    width: 100%;
 }
 
 #navbar ul li a{
