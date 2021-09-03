@@ -23,6 +23,7 @@
 }
 
 /* Services section  */
+
 #services{
     flex-direction: column;
 }
@@ -32,7 +33,12 @@
     margin: 2px 0px; 
     margin-bottom: 20px;
 }
-
+#services .box img{ 
+    height: 100px;
+    margin: auto;
+    display: block;
+   }
+   
 /* Sponsors section */
 #sponsors{
     flex-wrap: wrap;
@@ -45,6 +51,7 @@
 }
 
 /* Contact us section */
+
 #contact-box form{
     width:80%;
 }
@@ -54,7 +61,28 @@
 .h-primary{
     font-size:26px;
 }
+
+.h-secondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    padding: 12px;
+}
+
 .btn{
     font-size: 13px;
     padding: 4px 8px;
+    font-size: 1.5rem;
+    border: 2px solid white;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 10px;
+}
+.button{
+    font-size: 13px;
+    padding: 4px 8px;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 10px;
 }
